@@ -1,0 +1,22 @@
+.txt {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.myunderline {
+    background-color: #149ddd;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    animation-name: line-animate;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes line-animate {
+    0%   {left:-5%;}
+    50%  {left:5%;}
+    100% {left:0%;}
+}
