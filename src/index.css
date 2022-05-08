@@ -68,7 +68,11 @@ code {
   text-decoration: none;
   text-align: center;
   font-size: 25px;
-  color: #f1f1f1;
+  font-weight: bold;
+  /* background: linear-gradient(180deg, rgb(1, 218, 55) , rgb(205, 14, 183));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: white;
   display: block;
 }
 
@@ -78,13 +82,11 @@ code {
 }
 
 .container {
-  height: 100vh;
-  padding-top: 60px;
-  padding-left: 40px;
+  height: 90vh;
+  padding: 60px 40px;
 }
 
-.container {
-  height: 100vh;
-  padding-top: 60px;
-  padding-left: 40px;
+.con {
+  height: 70vh;
+  background-color: rgba(125, 124, 124, 0.1);
 }

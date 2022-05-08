@@ -5,11 +5,14 @@
 }
 
 .myunderline {
-    background-color: #149ddd;
-    height: 5px;
-    width: 100px;
+    background-image: linear-gradient(to right, rgba(1, 110, 218,0.4) , rgb(217, 0, 192));
+    height: 6px;
+    width: 120px;
     margin-bottom: 30px;
     position: relative;
+}
+
+.line_animate {
     animation-name: line-animate;
     animation-duration: 2s;
     /* animation-iteration-count: infinite; */
